@@ -1,19 +1,18 @@
 import React from "react";
-import { Button } from "react-bootstrap";
-import { useSelector } from 'react-redux';
+import { useSelector } from "react-redux";
 
 const Saved = () => {
-    const savedSearch = useSelector((state) => state.savedSearch);
+    let savedSearch = useSelector((state) => state.addSearch);
 
     return (
         <div>
         {savedSearch.length > 0 ? (
             savedSearch.map((search) => (
-                <Button>{search.query}</Button>
+                <p>{search.query}</p>
             ))
             ) : (
                 <p>No Recent Searches</p>
-            )};
+            )}
         </div>
     )
 }

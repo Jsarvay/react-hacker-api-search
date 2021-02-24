@@ -37,7 +37,7 @@ const Search = () => {
 
     return (
         <div>
-            <Jumbotron>
+            <Jumbotron style={{ border: "solid 2px black", padding: "10px"}}>
                 <h1>Hacker News API Search</h1>
                 <h4>Enter a search to get started!</h4>
                 <form>
@@ -56,7 +56,10 @@ const Search = () => {
                 <Saved />
             </Jumbotron>
 
-            <Article />
+            <Jumbotron>
+                <h4>Results</h4>
+                <Article />
+            </Jumbotron>
         </div>
     );
 };
