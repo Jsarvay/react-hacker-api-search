@@ -8,7 +8,7 @@ import Saved from "../Saved/index";
 import store from "../../store";
 
 const Search = () => {
-
+    //Set up state for this page to register key logs and so we can send it to Redux on submit
     const [search, setSearch] = useState();
 
     //Save keyboard inputs into search bar to state to use later for API calls and Redux
@@ -37,7 +37,7 @@ const Search = () => {
 
     return (
         <div>
-            <Jumbotron style={{ border: "solid 2px black", padding: "10px"}}>
+            <Jumbotron className="jumbo-shadow">
                 <h1>Hacker News API Search</h1>
                 <h4>Enter a search to get started!</h4>
                 <form>

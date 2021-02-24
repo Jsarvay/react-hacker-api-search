@@ -3,6 +3,7 @@ import { Card } from "react-bootstrap";
 import { useSelector } from "react-redux";
 
 const Article = () => {
+    //Grab our articles from our Redux state
     const stories = useSelector((state) => state.searchArticle)
 
     return (

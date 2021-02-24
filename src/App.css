@@ -4,4 +4,25 @@ html {
     text-align: center;
     align-content: center;
     font-family: 'RocknRoll One', sans-serif;
+    background-color: lightgray;
+}
+
+button {
+    background-color: darkblue;
+    color: white;
+}
+
+button:hover {
+    border: solid 2px black;
+    background-color: dodgerblue;
+}
+
+.jumbo-shadow {
+    box-shadow: 2px 2px 2px darkslategray;
+    border: solid 2px black;
+    padding: 10px;
+}
+
+a:hover {
+    color: darkblue;
 }

@@ -2,7 +2,8 @@ import React from "react";
 import { useSelector } from "react-redux";
 
 const Saved = () => {
-    let savedSearch = useSelector((state) => state.addSearch);
+    //Grab our recent searches from our Redux state
+    const savedSearch = useSelector((state) => state.addSearch);
 
     return (
         <div>
