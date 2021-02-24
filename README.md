@@ -4,7 +4,7 @@
 ## Description
 An app built using React and Redux to search through the Hacker News API.
 
-[Deployed Link](https://jamhammer.herokuapp.com)
+[Deployed Link](https://jsarvay.github.io/react-hacker-api-search/)
 
 ![Badge](https://img.shields.io/static/v1?label=License&message=MIT&color=<brightgreen>)
 
@@ -38,5 +38,4 @@ Please feel free to reach out to either of the following links with questions re
 ##### Github: [JSarvay](http://github.com/JSarvay/)
 ##### E-mail: jordans1@vt.edu
 
-![login](./client/public/Assets/login.png)
-Login page.
+![landing](./public/Assets/landing.png)
