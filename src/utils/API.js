@@ -4,6 +4,6 @@ import axios from "axios";
 
 export default {
     getSearch: function(search) {
-        return axios.get(`http://hn.algolia.com/api/v1/search?query=${search}`);
+        return axios.get(`https://hn.algolia.com/api/v1/search?query=${search}`);
     }
 };
